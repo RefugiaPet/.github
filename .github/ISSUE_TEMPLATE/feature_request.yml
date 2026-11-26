@@ -1,0 +1,22 @@
+name: Feature request
+description: Propón una mejora de producto.
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Problema
+      description: ¿Qué necesidad del usuario resuelve? No asumas validación de mercado.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Propuesta
+      description: Describe el resultado esperado, restricciones y alternativas.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Consideraciones
+      options:
+        - label: Se consideraron permisos, aislamiento de tenant y privacidad.

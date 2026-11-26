@@ -1,0 +1,23 @@
+name: Bug report
+description: Reporta un comportamiento reproducible.
+title: "fix: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Descripción
+      description: Describe el comportamiento observado y el esperado. No incluyas datos personales ni credenciales.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidencia y entorno
+      description: Versión, navegador, logs saneados o capturas sin datos sensibles.
